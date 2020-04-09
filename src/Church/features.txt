@@ -1,5 +1,7 @@
 Member Panel
-This panel would allow the viewing,addition and editing of members. It would also allow the viewing of attendance
+This panel would allow the viewing,addition and editing of members. It would also allow the viewing of attendance.
+Ministries Panel
+This panel will handle the viewing,addition and editing of the various ministries in the church.
 Sms Integration
 A.The software should have feature that allows birthday sms to their members to be sent thier members.
 This should be a funtion that would send the birthday message automatically to the member. so it should pick from the database the members whose birthday is today and send a customized sms to them.
@@ -8,3 +10,4 @@ C. The software should have feature that allows sms to be sent members notifying
 Social Media Integration
 A. The software should have a feature that allows the user to post upcoming events to their social media outlets, post scriptures or messages
 B. This panel should help them see the number of followers on their various handles.
+
