@@ -1,0 +1,8 @@
+Sms Integration
+1.The software should have feature that allows birthday sms to their members to be sent thier members.
+This should be a funtion that would send the birthday message automatically to the member. so it should pick from the database the members whose birthday is today and send a customized sms to them.
+2. The software should have feature that allows sms to be sent to people who visited the church for the first time. 
+3. The software should have feature that allows sms to be sent members notifying them of upcoming programs.
+Social Media Integration
+1. The software should have a feature that allows the user to post upcoming events to their social media outlets, post scriptures or messages
+2. This panel should help them see the number of followers on their various handles.
