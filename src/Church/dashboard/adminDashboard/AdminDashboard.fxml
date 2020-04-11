@@ -35,12 +35,145 @@
                   <Font name="Bookman Old Style Bold" size="18.0" />
                </font>
             </Label>
-            <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+            <HBox fx:id="dashboardLabel" alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
                <children>
                   <FontAwesomeIconView fill="#d7d7d7" glyphName="DASHBOARD" size="20" />
                   <Label text="DASHBOARD" textFill="#d7d7d7">
                      <font>
                         <Font name="Bookman Old Style Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="usersHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="134.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="USERS" size="20" />
+                  <Label text="USERS" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="eventsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="169.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="CALENDAR" size="20" />
+                  <Label text="EVENTS" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="groupsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="204.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="OBJECT_GROUP" size="20" />
+                  <Label text="GROUPS" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="recordsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="239.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="BOOK" size="20" />
+                  <Label text="RECORDS" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="messageHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="449.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="GLOBE" size="20" />
+                  <Label text="MESSAGE" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="reportsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="274.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="FILE" size="20" />
+                  <Label text="REPORTS" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="accountsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="309.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="MONEY" size="20" />
+                  <Label text="ACCOUNTS" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="mediaHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="344.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="CHROME" size="20" />
+                  <Label text="MEDIA" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="websiteHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="414.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="GLOBE" size="20" />
+                  <Label text="WEBSITE" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="settingsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="379.0" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fill="#d7d7d7" glyphName="COGS" size="20" />
+                  <Label text="SETTINGS" textFill="#d7d7d7">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
                      </font>
                   </Label>
                </children>
@@ -112,21 +245,30 @@
                      </children>
                   </AnchorPane>
                   <Region prefHeight="75.0" prefWidth="631.0" />
-                  <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="715.0">
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="715.0">
                      <children>
-                        <AnchorPane prefHeight="75.0" prefWidth="294.0">
+                        <AnchorPane prefHeight="75.0" prefWidth="263.0">
                            <children>
-                              <JFXTextField fx:id="searchTextField" labelFloat="true" layoutX="45.0" layoutY="20.0" prefHeight="36.0" prefWidth="215.0" promptText="search...">
+                              <JFXTextField fx:id="searchTextField" labelFloat="true" layoutX="45.0" layoutY="20.0" prefHeight="36.0" prefWidth="191.0" promptText="search...">
                                  <font>
                                     <Font size="15.0" />
                                  </font>
                               </JFXTextField>
-                              <FontAwesomeIconView fill="#948383" glyphName="SEARCH" layoutX="260.0" layoutY="44.0" size="20" />
-                              <Label fx:id="seach" layoutX="251.0" layoutY="21.0" prefHeight="36.0" prefWidth="36.0" />
+                              <FontAwesomeIconView fill="#948383" glyphName="SEARCH" layoutX="236.0" layoutY="44.0" size="20" />
+                              <Label fx:id="seach" layoutX="235.0" layoutY="21.0" prefHeight="36.0" prefWidth="36.0" />
                            </children>
                         </AnchorPane>
                         <Circle fx:id="adminImageCircle" fill="DODGERBLUE" radius="25.0" stroke="BLACK" strokeType="INSIDE" HBox.hgrow="ALWAYS" />
-                        <JFXComboBox fx:id="dropDoenComboBox" prefHeight="36.0" prefWidth="151.0" promptText="Administrator" HBox.hgrow="ALWAYS" />
+                        <VBox prefHeight="75.0" prefWidth="198.0">
+                           <children>
+                              <Label prefHeight="33.0" prefWidth="162.0" text="Salifu Gebilila Almighty">
+                                 <font>
+                                    <Font name="Bookman Old Style" size="14.0" />
+                                 </font>
+                              </Label>
+                              <JFXComboBox fx:id="dropDoenComboBox" prefHeight="36.0" prefWidth="178.0" promptText="Administrator" />
+                           </children>
+                        </VBox>
                      </children>
                   </HBox>
                </children>
@@ -142,31 +284,38 @@
                               <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="105.0" prefWidth="214.0" style="-fx-border-color: gray; -fx-background-color: white; -fx-border-width: 2;">
                                  <effect>
                                     <DropShadow />
-                                 </effect></Label>
+                                 </effect>
+                              </Label>
                               <Label layoutX="464.0" layoutY="14.0" prefHeight="105.0" prefWidth="214.0" style="-fx-background-color: white; -fx-border-width: 2; -fx-border-color: gray;">
                                  <effect>
                                     <DropShadow />
-                                 </effect></Label>
+                                 </effect>
+                              </Label>
                               <Label layoutX="688.0" layoutY="15.0" prefHeight="105.0" prefWidth="214.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-width: 2;">
                                  <effect>
                                     <DropShadow />
-                                 </effect></Label>
+                                 </effect>
+                              </Label>
                               <Label layoutX="912.0" layoutY="14.0" prefHeight="105.0" prefWidth="214.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-width: 2;">
                                  <effect>
                                     <DropShadow />
-                                 </effect></Label>
+                                 </effect>
+                              </Label>
                               <Label layoutX="238.0" layoutY="15.0" prefHeight="105.0" prefWidth="214.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-width: 2;">
                                  <effect>
                                     <DropShadow />
-                                 </effect></Label>
+                                 </effect>
+                              </Label>
                               <Label layoutX="22.0" layoutY="38.0" prefHeight="44.0" prefWidth="45.0" style="-fx-border-color: #8E44AD; -fx-border-radius: 100; -fx-background-radius: 100; -fx-background-color: #8E44AD;">
                                  <cursor>
                                     <Cursor fx:constant="HAND" />
-                                 </cursor></Label>
+                                 </cursor>
+                              </Label>
                               <FontAwesomeIconView fx:id="totalRevenueIcon" fill="WHITE" glyphName="DOLLAR" layoutX="36.0" layoutY="69.0" size="30">
                                  <cursor>
                                     <Cursor fx:constant="HAND" />
-                                 </cursor></FontAwesomeIconView>
+                                 </cursor>
+                              </FontAwesomeIconView>
                               <Label layoutX="78.0" layoutY="82.0" prefHeight="19.0" prefWidth="128.0" text="Total Revenue">
                                  <font>
                                     <Font name="Bookman Old Style Bold" size="16.0" />
