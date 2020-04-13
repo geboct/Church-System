@@ -10,4 +10,5 @@ C. The software should have feature that allows sms to be sent members notifying
 Social Media Integration
 A. The software should have a feature that allows the user to post upcoming events to their social media outlets, post scriptures or messages
 B. This panel should help them see the number of followers on their various handles.
-
+The software should have a feature that allows the attendance of members to be view in the form of
+weekly and monthly.
