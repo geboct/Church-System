@@ -10,8 +10,8 @@ public class Login extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/Church/dashboard/adminDashboard/AdminDashboard.fxml"));
-        primaryStage.setTitle("Hello World");
+        Parent root = FXMLLoader.load(getClass().getResource("/Church/dashboard/AdminDashboard.fxml"));
+        primaryStage.setTitle("ADMIN DASHBOARD");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
