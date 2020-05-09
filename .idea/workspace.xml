@@ -2,41 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Admin Dashboard fxml">
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Accounts.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/DefaultWithBrowser.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/DefaultWithBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/DefaultWithChart.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/DefaultWithChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Events.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Events.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Groups.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Media.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Media.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Message.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Profile.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Records.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Records.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Reports.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Reports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Settings.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Users.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Website.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/Website.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/defaultWithBrowser/PrayerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/defaultWithChart/PrayerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/event/EventDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/family/Family.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/family/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/family/FamilyDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/groups/GroupDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/message/EmailDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/message/MessageDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/profile/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/settings/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/users/NewUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/users/NewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/dashboard/users/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/database/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Church/database/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/login_bac.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features.txt" beforeDir="false" afterPath="$PROJECT_DIR$/features.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Church-System/Church/dashboard/adminDashboard/AdminDashboard.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Church-System/lib/nblibraries.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Church-System/lib/nblibraries.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Church-System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Church-System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Church-System/Church/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Church-System/Church/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/Login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Church/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/adminDashboard/AdminDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/adminDashboard/AdminDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/memberDashboard/MemberDashboardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/nblibraries.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/nblibraries.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Accounts.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/accounts/Accounts.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/accounts/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/dashboard/AdminDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/dashboard/AdminDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/DefaultWithBrowser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/defaultWithBrowser/DefaultWithBrowser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/DefaultWithBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/defaultWithBrowser/DefaultWithBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/DefaultWithChart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/defaultWithChart/DefaultWithChart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/DefaultWithChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/defaultWithChart/DefaultWithChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Events.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/event/Events.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/event/Events.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Groups.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/groups/Groups.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/groups/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Media.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/media/Media.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/media/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Message.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/message/Message.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/profile/Profile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Records.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/records/Records.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Records.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/records/Records.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Reports.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/reports/Reports.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Reports.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/reports/Reports.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/settings/Settings.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Users.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/users/Users.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/users/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Website.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/website/Website.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Church/dashboard/Website.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Church/dashboard/website/Website.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +64,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Church_System$All_Features_in__dashboard.ic" NAME="All Features in: dashboard Coverage Results" MODIFIED="1587886287462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
@@ -92,66 +128,101 @@
     <session id="-343719399">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.105" value="1" />
+          <entry key="project.open.time.109" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.120" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.141" value="1" />
+          <entry key="project.open.time.159" value="1" />
+          <entry key="project.open.time.166" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.46" value="2" />
-          <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="3" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.52" value="2" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.56" value="3" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.58" value="1" />
-          <entry key="project.open.time.65" value="2" />
-          <entry key="project.open.time.66" value="2" />
+          <entry key="project.open.time.60" value="2" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.63" value="2" />
+          <entry key="project.open.time.64" value="2" />
+          <entry key="project.open.time.65" value="3" />
+          <entry key="project.open.time.66" value="3" />
           <entry key="project.open.time.67" value="1" />
-          <entry key="project.open.time.71" value="2" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.71" value="3" />
+          <entry key="project.open.time.72" value="2" />
+          <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.78" value="2" />
-          <entry key="project.open.time.82" value="1" />
+          <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.82" value="2" />
           <entry key="project.open.time.83" value="1" />
+          <entry key="project.open.time.84" value="3" />
           <entry key="project.open.time.87" value="1" />
+          <entry key="project.open.time.88" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.open.time.97" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="2" />
-          <entry key="fxml" value="24" />
-          <entry key="java" value="30" />
+          <entry key="fxml" value="52" />
+          <entry key="java" value="93" />
+          <entry key="jpg" value="1" />
           <entry key="makeUp" value="1" />
           <entry key="md" value="2" />
-          <entry key="txt" value="5" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="7" />
           <entry key="zip" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ARCHIVE" value="1" />
-          <entry key="JAVA" value="30" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="93" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="XML" value="24" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="fxml" value="85" />
-          <entry key="java" value="3246" />
+          <entry key="fxml" value="128" />
+          <entry key="java" value="18393" />
           <entry key="makeUp" value="143" />
           <entry key="md" value="186" />
+          <entry key="sql" value="480" />
           <entry key="txt" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="JAVA" value="3245" />
+          <entry key="JAVA" value="18392" />
           <entry key="Markdown" value="186" />
           <entry key="PLAIN_TEXT" value="256" />
-          <entry key="XML" value="85" />
+          <entry key="SQL" value="480" />
+          <entry key="XML" value="128" />
         </counts>
       </usages-collector>
     </session>
@@ -162,22 +233,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.java">
+        <entry file="file://$PROJECT_DIR$/src/Church/dashboard/dashboard/AdminDashboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9308">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="130">
+              <caret line="267" selection-start-line="267" selection-end-line="267" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Profile.java">
+        <entry file="file://$PROJECT_DIR$/src/Church/dashboard/profile/Profile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="130">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
             </state>
           </provider>
         </entry>
@@ -187,8 +255,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -203,19 +271,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Church/Main.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/makeUp" />
-        <option value="$PROJECT_DIR$/src/Church/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/Church/dashboard/adminDashboard/AdminDashboard.fxml" />
-        <option value="$PROJECT_DIR$/src/Church/dashboard/adminDashboard/AdminDashboard.java" />
-        <option value="$PROJECT_DIR$/src/Church/dashboard/Users.fxml" />
-        <option value="$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.fxml" />
-        <option value="$PROJECT_DIR$/src/Church/dashboard/Default.fxml" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Default.java" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Users.java" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Events.fxml" />
-        <option value="$PROJECT_DIR$/src/Church/dashboard/Events.java" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Groups.fxml" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Records.java" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Records.fxml" />
@@ -224,7 +282,6 @@
         <option value="$PROJECT_DIR$/src/Church/dashboard/Accounts.fxml" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Media.fxml" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/DefaultWithChart.fxml" />
-        <option value="$PROJECT_DIR$/src/Church/Login.java" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/DefaultWithChart.java" />
         <option value="$PROJECT_DIR$/features.txt" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Message.java" />
@@ -232,8 +289,39 @@
         <option value="$PROJECT_DIR$/src/Church/dashboard/Settings.fxml" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Groups.java" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Profile.fxml" />
-        <option value="$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.java" />
         <option value="$PROJECT_DIR$/src/Church/dashboard/Profile.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/Reports.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/Family.fxml" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.fxml" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/Family.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/Events.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/event/Events.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/defaultWithChart/DefaultWithChart.fxml" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/message/MessageDetail.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/groups/Groups.fxml" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/groups/GroupDetail.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/groups/Groups.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/family/FamilyDetail.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/family/Family.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/users/Users.fxml" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/message/Message.java" />
+        <option value="$PROJECT_DIR$/src/Church/database/db.sql" />
+        <option value="$PROJECT_DIR$/src/Church/Login.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/dashboard/AdminDashboard.fxml" />
+        <option value="$PROJECT_DIR$/username.txt" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/users/NewUser.fxml" />
+        <option value="$PROJECT_DIR$/src/Church/database/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/users/NewUser.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/users/UserDetails.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/users/Users.java" />
+        <option value="$PROJECT_DIR$/src/Church/Login.fxml" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/dashboard/PrayerRequestDetails.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/defaultWithChart/PrayerDetails.java" />
+        <option value="$PROJECT_DIR$/src/Church/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/defaultWithChart/DefaultWithChart.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/dashboard/AdminDashboard.java" />
+        <option value="$PROJECT_DIR$/src/Church/dashboard/profile/Profile.java" />
       </list>
     </option>
   </component>
@@ -243,10 +331,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="x" value="675" />
+    <option name="y" value="-8" />
+    <option name="width" value="699" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -257,6 +352,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,21 +382,15 @@
               <item name="Church-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="Church-System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Church-System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Church-System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa2-persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="Church" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,22 +403,28 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587326421350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589034474925" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/mysql-connector-java-8.0.15.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bril\OneDrive\Documents\GitHub\Church-System\src\Church\dashboard\login" />
+      <recent name="C:\Users\Bril\OneDrive\Documents\GitHub\Church-System\src\Church\dashboard\defaultWithChart" />
+      <recent name="C:\Users\Bril\OneDrive\Documents\GitHub\Church-System\src\Church\dashboard\defaultWithBrowser" />
+      <recent name="C:\Users\Bril\OneDrive\Documents\GitHub\Church-System\src\Church\dashboard\website" />
+      <recent name="C:\Users\Bril\OneDrive\Documents\GitHub\Church-System\src\Church\dashboard\reports" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bril\OneDrive\Documents\GitHub\Church-System\src\images" />
       <recent name="C:\Users\Bril\OneDrive\Documents\GitHub\Church-System\src\lib" />
       <recent name="C:\Users\Bril\OneDrive\Documents\GitHub\Church-System\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bril\OneDrive\Documents\GitHub\Church-System" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,7 +439,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -384,6 +480,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All Features in: dashboard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/Church/dashboard/dashboard" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Church-System" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -413,6 +526,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Cucumber java.All Features in: dashboard" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.All Features in: dashboard" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -449,6 +571,52 @@
       <workItem from="1587134510023" duration="8726000" />
       <workItem from="1587195811826" duration="6482000" />
       <workItem from="1587285370795" duration="3725000" />
+      <workItem from="1587367337836" duration="11457000" />
+      <workItem from="1587410403198" duration="1182000" />
+      <workItem from="1587419179274" duration="577000" />
+      <workItem from="1587477517142" duration="701000" />
+      <workItem from="1587539535251" duration="5742000" />
+      <workItem from="1587554764359" duration="1633000" />
+      <workItem from="1587630323048" duration="5582000" />
+      <workItem from="1587677679122" duration="47000" />
+      <workItem from="1587714561775" duration="615000" />
+      <workItem from="1587733357650" duration="9835000" />
+      <workItem from="1587790890298" duration="355000" />
+      <workItem from="1587802925051" duration="3912000" />
+      <workItem from="1587852225142" duration="377000" />
+      <workItem from="1587885308031" duration="2701000" />
+      <workItem from="1587903834960" duration="2691000" />
+      <workItem from="1587962782809" duration="1300000" />
+      <workItem from="1587974220657" duration="12472000" />
+      <workItem from="1587997472080" duration="2996000" />
+      <workItem from="1588061329301" duration="1634000" />
+      <workItem from="1588072185619" duration="2309000" />
+      <workItem from="1588108732835" duration="50000" />
+      <workItem from="1588143705475" duration="16553000" />
+      <workItem from="1588180183941" duration="745000" />
+      <workItem from="1588196851196" duration="874000" />
+      <workItem from="1588232286039" duration="1445000" />
+      <workItem from="1588246489686" duration="1729000" />
+      <workItem from="1588282013278" duration="678000" />
+      <workItem from="1588306378964" duration="776000" />
+      <workItem from="1588319181514" duration="2191000" />
+      <workItem from="1588404074054" duration="2673000" />
+      <workItem from="1588413477023" duration="7120000" />
+      <workItem from="1588493763631" duration="3394000" />
+      <workItem from="1588575855823" duration="6852000" />
+      <workItem from="1588651492949" duration="18016000" />
+      <workItem from="1588711149014" duration="1891000" />
+      <workItem from="1588745424697" duration="15306000" />
+      <workItem from="1588778245813" duration="6460000" />
+      <workItem from="1588795544034" duration="1193000" />
+      <workItem from="1588803484423" duration="953000" />
+      <workItem from="1588833208902" duration="7108000" />
+      <workItem from="1588854761295" duration="16519000" />
+      <workItem from="1588922551650" duration="2457000" />
+      <workItem from="1588928839136" duration="1092000" />
+      <workItem from="1588931593435" duration="17002000" />
+      <workItem from="1588972788022" duration="152000" />
+      <workItem from="1589004522941" duration="17201000" />
     </task>
     <task id="LOCAL-00001" summary="Admin Dashboard fxml">
       <created>1586626843202</created>
@@ -457,17 +625,29 @@
       <option name="project" value="LOCAL" />
       <updated>1586626843203</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Admin Dashboard fxml">
+      <created>1587367481686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587367481686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_Features_in__dashboard - 2020.04.26 at 07h 32m 09s.xml">
+      <configuration name="All Features in: dashboard" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107710000" />
+    <option name="totallyTimeSpent" value="326258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21104388" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.23676248" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="Favorites" order="2" weight="0.32980332" />
       <window_info id="Designer" order="3" />
@@ -476,7 +656,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3276923" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,58 +670,21 @@
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3276923" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="16" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.3276923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Flutter Inspector" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Flutter Inspector" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Flutter Outline" order="8" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="11" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32980332" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20801815" />
-      <window_info id="Structure" order="1" weight="0.24962178" />
-      <window_info id="Favorites" order="2" weight="0.32980332" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3276923" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="9" />
-      <window_info anchor="bottom" id="Changes" order="10" />
-      <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3276923" />
-      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="16" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Flutter Inspector" order="7" />
-      <window_info anchor="right" id="Flutter Outline" order="8" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Capture Analysis" order="11" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -560,110 +703,21 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Church/Login.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/memberDashboard/MemberDashboardController.java" />
-    <entry file="file://$PROJECT_DIR$/makeUp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/adminDashboard/AdminDashboard.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/adminDashboard/AdminDashboard.java" />
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="212" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="212" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Events.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Records.java">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/records/Records.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Records.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Users.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Events.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Reports.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Reports.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="166" selection-start-line="4" selection-start-column="166" selection-end-line="4" selection-end-column="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Accounts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Media.java">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/media/Media.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Media.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/media/Media.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -671,18 +725,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Settings.java">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/settings/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Message.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="166" selection-start-line="4" selection-start-column="166" selection-end-line="4" selection-end-column="166" />
         </state>
       </provider>
     </entry>
@@ -696,7 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/DefaultWithBrowser.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/defaultWithBrowser/DefaultWithBrowser.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -704,32 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/DefaultWithChart.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="175" selection-start-line="17" selection-start-column="175" selection-end-line="17" selection-end-column="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/DefaultWithBrowser.java">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/defaultWithBrowser/DefaultWithBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-202">
           <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/DefaultWithChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -740,22 +764,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Accounts.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="167" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Website.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/website/Website.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -763,14 +772,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Website.java">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/website/Website.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Settings.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/settings/Settings.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -778,46 +787,278 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Groups.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/jpa2-persistence/javax.persistence-2.1.0-doc.zip">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/reports/Reports.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Groups.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/family/Family.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="380">
+          <caret line="160" column="132" selection-start-line="160" selection-start-column="132" selection-end-line="160" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/message/Message.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="179" selection-start-line="45" selection-start-column="179" selection-end-line="45" selection-end-column="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/event/Events.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/event/Events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/event/EventDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/groups/Groups.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="68">
           <caret line="4" column="30" selection-end-line="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Profile.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/accounts/Accounts.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="167" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/accounts/Accounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/family/FamilyDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/family/Family.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="114" column="73" selection-start-line="114" selection-start-column="73" selection-end-line="114" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/groups/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/groups/GroupDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/reports/Reports.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/message/MessageDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/message/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/message/EmailDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/records/Records.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/database/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/dashboard/AdminDashboard.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="2547" selection-start-line="2547" selection-end-line="2547" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/username.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/profile/Profile.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="166" selection-start-line="5" selection-start-column="166" selection-end-line="5" selection-end-column="166" />
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/jpa2-persistence/javax.persistence-2.1.0-doc.zip">
-      <provider selected="true" editor-type-id="apk-viewer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/AdminDashboard.java">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/users/Users.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9308">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="254">
+          <caret line="100" column="50" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/Profile.java">
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/users/NewUser.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/database/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/users/NewUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="140" column="87" selection-start-line="140" selection-start-column="87" selection-end-line="140" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/Login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/dashboard/PrayerRequestDetails.java" />
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/users/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/users/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/defaultWithChart/PrayerDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/defaultWithChart/DefaultWithChart.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="18" column="175" selection-start-line="18" selection-start-column="175" selection-end-line="18" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/defaultWithChart/DefaultWithChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="94" column="42" lean-forward="true" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userPhoto.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/dashboard/AdminDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Church/dashboard/profile/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
         </state>
       </provider>
     </entry>
@@ -886,7 +1127,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>mysql-connector-java-8.0.15</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

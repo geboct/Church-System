@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="697.0" prefWidth="1363.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Church.dashboard.dashboard.AdminDashboard">
+   <left>
+      <VBox prefHeight="768.0" prefWidth="209.0" style="-fx-background-color: #1976D2;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="76.0" prefWidth="209.0" style="-fx-border-color: gray;">
+               <children>
+                  <Circle fx:id="churchLogo" fill="DODGERBLUE" radius="33.0" stroke="BLACK" strokeType="INSIDE" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets top="5.0" />
+                     </HBox.margin>
+                  </Circle>
+                  <Label fx:id="churchName" alignment="CENTER" contentDisplay="CENTER" prefHeight="74.0" prefWidth="144.0" text="MOUNT ZION CHAPEL INTERNATIONAL" textFill="#d7d7d7" wrapText="true" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Bookman Old Style Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets left="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <Label alignment="CENTER" prefHeight="48.0" prefWidth="209.0" style="-fx-background-color: black;" text="MAIN NAVIGATION" textFill="#d7d7d7">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="18.0" />
+               </font>
+            </Label>
+            <HBox fx:id="dashboadHBox" alignment="CENTER_LEFT" onMouseClicked="#onDashboardClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="dashboardIcon" fill="WHITE" glyphName="DASHBOARD" onMouseClicked="#onDashboardClicked" size="20" />
+                  <Label onMouseClicked="#onDashboardClicked" text="DASHBOARD" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="usersHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="134.0" onMouseClicked="#onUserClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="usersIcon" fill="WHITE" glyphName="USER" onMouseClicked="#onUserClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="usersLabel" onMouseClicked="#onUserClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="USERS" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="eventsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="169.0" onMouseClicked="#onEventsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="eventsIcon" fill="WHITE" glyphName="CALENDAR" onMouseClicked="#onEventsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="eventLabel" onMouseClicked="#onEventsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="EVENTS" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="groupsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="204.0" onMouseClicked="#onGroupsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="groupsIcon" fill="WHITE" glyphName="OBJECT_GROUP" onMouseClicked="#onGroupsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="groupLabel" onMouseClicked="#onGroupsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="GROUPS" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="recordsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="239.0" onMouseClicked="#onRecordsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="recordsIcon" fill="WHITE" glyphName="BOOK" onMouseClicked="#onRecordsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="recordsLabel" onMouseClicked="#onRecordsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="RECORDS" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="messageHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="449.0" onMouseClicked="#onMessageClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="messageIcon" fill="WHITE" glyphName="ENVELOPE" onMouseClicked="#onMessageClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="" onMouseClicked="#onMessageClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="MESSAGE" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="reportsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="274.0" onMouseClicked="#onReportsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="reportsIcon" fill="WHITE" glyphName="FILE" onMouseClicked="#onReportsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="reportsLabel" onMouseClicked="#onReportsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="REPORTS" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="accountsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="309.0" onMouseClicked="#onAccountsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="accountsIcon" fill="WHITE" glyphName="MONEY" onMouseClicked="#onAccountsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="accountsLabel" onMouseClicked="#onAccountsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="ACCOUNTS" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="mediaHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="344.0" onMouseClicked="#onMediaClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="mediaIcon" fill="WHITE" glyphName="FILM" onMouseClicked="#onMediaClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="mediaLabel" onMouseClicked="#onMediaClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="MEDIA" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="familyHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="519.0" onMouseClicked="#onFamilyClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="familyIcon" fill="WHITE" glyphName="USERS" onMouseClicked="#onFamilyClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="familyLabel" onMouseClicked="#onFamilyClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="FAMILY" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="websiteHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="414.0" onMouseClicked="#onWebsiteClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="websiteIcon" fill="WHITE" glyphName="GLOBE" onMouseClicked="#onWebsiteClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="websiteLabel" onMouseClicked="#onWebsiteClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="WEBSITE" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox fx:id="settingsHBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="379.0" onMouseClicked="#onSettingsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="35.0" prefWidth="209.0" spacing="10.0">
+               <children>
+                  <FontAwesomeIconView fx:id="settingsIcon" fill="WHITE" glyphName="COGS" onMouseClicked="#onSettingsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="20" />
+                  <Label fx:id="settingsLabel" onMouseClicked="#onSettingsClicked" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" text="SETTINGS" textFill="WHITE">
+                     <font>
+                        <Font name="Bookman Old Style" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <BorderPane fx:id="mainBorderPane" prefHeight="693.0" prefWidth="1154.0" BorderPane.alignment="CENTER">
+         <top>
+            <HBox prefHeight="77.0" prefWidth="1149.0" style="-fx-border-color: #1976D2;" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="75.0" prefWidth="269.0">
+                     <children>
+                        <Label fx:id="messageLabel" alignment="TOP_RIGHT" layoutX="16.0" layoutY="7.0" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="47.0" prefWidth="48.0" style="-fx-border-color: gray; -fx-background-radius: 100; -fx-border-radius: 100; -fx-background-color: #669999;">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                        <FontAwesomeIconView fx:id="messageIcon1" fill="#f8f8f8" glyphName="ENVELOPE" layoutX="28.0" layoutY="37.0" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="25">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></FontAwesomeIconView>
+                        <Label fx:id="numberOfMessagesLabel" layoutX="46.0" layoutY="5.0" style="-fx-border-radius: 100; -fx-background-radius: 100; -fx-border-color: gray; -fx-background-color: red;" text="1000" textFill="#fcfcfc">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="notificationLabel" alignment="TOP_RIGHT" layoutX="90.0" layoutY="8.0" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="47.0" prefWidth="48.0" style="-fx-border-color: gray; -fx-background-radius: 100; -fx-border-radius: 100; -fx-background-color: #669999;">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                        <FontAwesomeIconView fx:id="notificationIcon" fill="#f8f8f8" glyphName="BELL" layoutX="102.0" layoutY="38.0" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="25" text="">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></FontAwesomeIconView>
+                        <Label fx:id="notificationNumber" layoutX="120.0" layoutY="6.0" style="-fx-border-radius: 100; -fx-background-radius: 100; -fx-border-color: gray; -fx-background-color: #009933;" text="1000" textFill="#fcfcfc">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_RIGHT" layoutX="160.0" layoutY="9.0" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" prefHeight="47.0" prefWidth="48.0" style="-fx-border-color: gray; -fx-background-radius: 100; -fx-border-radius: 100; -fx-background-color: #669999;">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                        <FontAwesomeIconView fill="#f8f8f8" glyphName="TASKS" layoutX="171.0" layoutY="39.0" onMouseEntered="#onIconHover" onMouseExited="#onIconHoverExit" size="25">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></FontAwesomeIconView>
+                        <Label layoutX="190.0" layoutY="7.0" style="-fx-border-radius: 100; -fx-background-radius: 100; -fx-border-color: gray; -fx-background-color: #ff6600;" text="1000" textFill="#fcfcfc">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Region prefHeight="75.0" prefWidth="631.0" HBox.hgrow="ALWAYS" />
+                  <HBox alignment="CENTER_RIGHT" prefHeight="70.0" prefWidth="258.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Circle fx:id="adminImageCircle" fill="DODGERBLUE" radius="25.0" stroke="BLACK" strokeType="INSIDE" HBox.hgrow="ALWAYS" />
+                        <VBox alignment="CENTER_RIGHT" prefHeight="70.0" prefWidth="203.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label fx:id="loggedInUser" prefHeight="49.0" prefWidth="225.0" text="Salifu Gebilila Almighty" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Bookman Old Style" size="14.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets left="2.0" right="2.0" top="15.0" />
+                                 </padding>
+                              </Label>
+                              <JFXComboBox fx:id="adminComboBox" focusColor="WHITE" prefHeight="25.0" prefWidth="201.0" promptText="Administrator" unFocusColor="WHITE" VBox.vgrow="ALWAYS">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor></JFXComboBox>
+                           </children>
+                           <padding>
+                              <Insets left="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="5.0" />
+                     </HBox.margin>
+                  </HBox>
+               </children>
+            </HBox>
+         </top>
+         <center>
+
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>

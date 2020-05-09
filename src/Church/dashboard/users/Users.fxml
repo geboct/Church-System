@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="620.0" prefWidth="1154.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Church.dashboard.users.Users">
+   <children>
+      <BorderPane layoutX="31.0" layoutY="39.0" prefHeight="620.0" prefWidth="1154.0" style="-fx-background-color: #e0e0e0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="100.0" prefWidth="1133.0" style="-fx-background-color: #e0e0e0;" HBox.hgrow="ALWAYS">
+                     <children>
+                        <FontAwesomeIconView fill="#686868" glyphName="HOME" layoutX="48.0" layoutY="74.0" size="45" />
+                        <JFXButton fx:id="addUserButton" layoutX="870.0" layoutY="49.0" prefHeight="28.0" prefWidth="106.0" style="-fx-background-color: GREEN;" text="Add user" textFill="#e0e0e0">
+                           <font>
+                              <Font name="Bookman Old Style" size="15.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="bulkDeleteButton" layoutX="996.0" layoutY="49.0" prefHeight="28.0" prefWidth="133.0" style="-fx-background-color: RED;" text="Bulk Delete" textFill="#e0e0e0">
+                           <font>
+                              <Font name="Bookman Old Style" size="15.0" />
+                           </font>
+                        </JFXButton>
+                        <HBox alignment="CENTER_LEFT" layoutX="107.0" layoutY="41.0" prefHeight="34.0" prefWidth="200.0" spacing="5.0">
+                           <children>
+                              <Label text="Dashboard" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Bookman Old Style" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label text="/" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Bookman Old Style" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Users" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Bookman Old Style" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <BorderPane prefHeight="520.0" prefWidth="1128.0" style="-fx-background-color: white; -fx-border-color: #e0e0e0;" BorderPane.alignment="CENTER">
+               <top>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="5.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label text="showing" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Bookman Old Style" size="17.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="numberOfEntriesLabel" alignment="CENTER" text="0" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Bookman Old Style" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label text="entries" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Bookman Old Style" size="17.0" />
+                           </font>
+                        </Label>
+                        <Region prefHeight="100.0" prefWidth="634.0" HBox.hgrow="ALWAYS" />
+                        <JFXTextField fx:id="searchTextField" focusColor="WHITE" labelFloat="true" prefHeight="36.0" prefWidth="248.0" promptText="search..." style="-fx-border-color: gray; -fx-border-radius: 100; -fx-background-radius: 100;" unFocusColor="WHITE" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Bookman Old Style" size="15.0" />
+                           </font>
+                           <padding>
+                              <Insets left="15.0" right="20.0" />
+                           </padding>
+                        </JFXTextField>
+                     </children>
+                  </HBox>
+               </top>
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" />
+               </BorderPane.margin>
+               <center>
+                  <TableView fx:id="usersTableView" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: white;" BorderPane.alignment="CENTER">
+                    <columns>
+                      <TableColumn fx:id="checkboxTableColumn" prefWidth="37.000030517578125" />
+                      <TableColumn fx:id="nameTableColumn" prefWidth="318.0" text="Name" />
+                        <TableColumn fx:id="emailTableColumn" prefWidth="168.0" text="E-mail" />
+                        <TableColumn fx:id="dateCreatedTableColumn" prefWidth="125.0" text="Date Created" />
+                        <TableColumn fx:id="avatarTableColumn" prefWidth="141.0" text="Avatar" />
+                        <TableColumn fx:id="roleTableColumn" prefWidth="90.0" text="Role" />
+                        <TableColumn minWidth="25.0" prefWidth="93.0" text="Actions">
+                           <columns>
+                              <TableColumn fx:id="viewTableColumn" prefWidth="75.0" text="View" />
+                              <TableColumn fx:id="editTableColumn" prefWidth="75.0" text="Edit" />
+                              <TableColumn fx:id="deleteTableColumn" prefWidth="75.0" text="Delete" />
+                           </columns>
+                        </TableColumn>
+                    </columns>
+                  </TableView>
+               </center>
+               <bottom>
+                  <HBox fx:id="footerHBox" prefHeight="30.0" prefWidth="1119.0" style="-fx-border-color: #e0e0e0;" BorderPane.alignment="CENTER" />
+               </bottom>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
