@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.web.WebView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<AnchorPane   prefHeight="620.0" prefWidth="1154.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Church.dashboard.defaultWithBrowser.DefaultWithBrowser" >
+    <children>
+        <HBox alignment="CENTER" layoutX="5.0" layoutY="7.0" prefHeight="135.0" prefWidth="1144.0" spacing="15.0">
+            <children>
+                <AnchorPane prefHeight="135.0" prefWidth="1147.0">
+                    <children>
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="105.0" prefWidth="214.0" style="-fx-border-color: gray; -fx-background-color: white; -fx-border-width: 2;">
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Label>
+                        <Label layoutX="464.0" layoutY="14.0" prefHeight="105.0" prefWidth="214.0" style="-fx-background-color: white; -fx-border-width: 2; -fx-border-color: gray;">
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Label>
+                        <Label layoutX="688.0" layoutY="15.0" prefHeight="105.0" prefWidth="214.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-width: 2;">
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Label>
+                        <Label layoutX="912.0" layoutY="14.0" prefHeight="105.0" prefWidth="214.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-width: 2;">
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Label>
+                        <Label layoutX="238.0" layoutY="15.0" prefHeight="105.0" prefWidth="214.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-width: 2;">
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="38.0" prefHeight="44.0" prefWidth="45.0" style="-fx-border-color: #8E44AD; -fx-border-radius: 100; -fx-background-radius: 100; -fx-background-color: #8E44AD;">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Label>
+                        <FontAwesomeIconView fx:id="totalRevenueIcon" fill="WHITE" glyphName="DOLLAR" layoutX="36.0" layoutY="69.0" size="30">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </FontAwesomeIconView>
+                        <Label layoutX="78.0" layoutY="82.0" prefHeight="19.0" prefWidth="128.0" text="Total Revenue">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="116.0" layoutY="38.0" prefHeight="37.0" prefWidth="101.0" text="5465434">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="78.0" layoutY="45.0" prefHeight="24.0" prefWidth="36.0" text="GH₵">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="15.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="248.0" layoutY="35.0" prefHeight="44.0" prefWidth="45.0" style="-fx-border-color: #EC7063; -fx-border-radius: 100; -fx-background-radius: 100; -fx-background-color: #EC7063;">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Label>
+                        <FontAwesomeIconView fx:id="onlineRevenueIcon" fill="WHITE" glyphName="LAPTOP" layoutX="254.0" layoutY="66.0" size="30">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </FontAwesomeIconView>
+                        <Label layoutX="293.0" layoutY="79.0" prefHeight="19.0" prefWidth="139.0" text="Online Revenue">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="342.0" layoutY="35.0" prefHeight="37.0" prefWidth="101.0" text="5465434">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="304.0" layoutY="42.0" prefHeight="24.0" prefWidth="36.0" text="GH₵">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="15.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="475.0" layoutY="38.0" prefHeight="44.0" prefWidth="45.0" style="-fx-border-color: #3498DB; -fx-border-radius: 100; -fx-background-radius: 100; -fx-background-color: #3498DB;">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Label>
+                        <FontAwesomeIconView fx:id="expensesIcon" fill="WHITE" glyphName="MONEY" layoutX="484.0" layoutY="69.0" size="25" wrappingWidth="32.14285659790039">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </FontAwesomeIconView>
+                        <Label layoutX="531.0" layoutY="82.0" prefHeight="19.0" prefWidth="128.0" text="Expenses">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="569.0" layoutY="38.0" prefHeight="37.0" prefWidth="101.0" text="5465434">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="531.0" layoutY="45.0" prefHeight="24.0" prefWidth="36.0" text="GH₵">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="15.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="698.0" layoutY="35.0" prefHeight="44.0" prefWidth="45.0" style="-fx-border-color: #F4D03F; -fx-border-radius: 100; -fx-background-radius: 100; -fx-background-color: #F4D03F;">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Label>
+                        <FontAwesomeIconView fx:id="expenditureIcon" fill="WHITE" glyphName="PIE_CHART" layoutX="706.0" layoutY="67.0" size="30">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </FontAwesomeIconView>
+                        <Label layoutX="754.0" layoutY="79.0" prefHeight="19.0" prefWidth="128.0" text="Expenditure">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="792.0" layoutY="35.0" prefHeight="37.0" prefWidth="101.0" text="5465434">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="754.0" layoutY="42.0" prefHeight="24.0" prefWidth="36.0" text="GH₵">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="15.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="922.0" layoutY="35.0" prefHeight="44.0" prefWidth="45.0" style="-fx-border-color: #27AE60; -fx-border-radius: 100; -fx-background-radius: 100; -fx-background-color: #27AE60;">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Label>
+                        <FontAwesomeIconView fx:id="totalUsersIcon" fill="WHITE" glyphName="USERS" layoutX="930.0" layoutY="66.0" size="28">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </FontAwesomeIconView>
+                        <Label layoutX="978.0" layoutY="79.0" prefHeight="19.0" prefWidth="128.0" text="Total Users">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="983.0" layoutY="35.0" prefHeight="37.0" prefWidth="101.0" text="5465434">
+                            <font>
+                                <Font name="Bookman Old Style Bold" size="16.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </children>
+        </HBox>
+        <Pane fx:id="calendarPane" layoutX="245.0" layoutY="142.0" prefHeight="214.0" prefWidth="207.0" style="-fx-border-color: gray; -fx-border-width: 2; -fx-background-color: white;">
+            <effect>
+                <DropShadow />
+            </effect>
+        </Pane>
+        <TableView layoutX="23.0" layoutY="401.0" prefHeight="200.0" prefWidth="426.0">
+            <columns>
+                <TableColumn fx:id="prayerRequestMessage" prefWidth="213.0" text="MESSAGE" />
+                <TableColumn fx:id="prayerRequestSender" prefWidth="118.0" text="SENDER" />
+                <TableColumn fx:id="prayerRequestDate" prefWidth="94.0" text="DATE" />
+            </columns>
+        </TableView>
+        <Label alignment="CENTER" layoutX="23.0" layoutY="384.0" prefHeight="17.0" prefWidth="428.0" text="PRAYER REQUESTS">
+            <font>
+                <Font name="Bookman Old Style" size="15.0" />
+            </font>
+        </Label>
+        <JFXListView fx:id="listView" layoutX="23.0" layoutY="143.0" prefHeight="217.0" prefWidth="200.0" style="-fx-border-width: 2; -fx-border-color: gray;">
+            <effect>
+                <DropShadow />
+            </effect>
+        </JFXListView>
+        <BorderPane fx:id="mainBorderPane" layoutX="473.0" layoutY="140.0" prefHeight="461.0" prefWidth="657.0">
+            <center>
+                <WebView fx:id="browserWV" prefHeight="200.0" prefWidth="200.0" />
+            </center>
+            <top>
+                <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <items>
+                        <Button mnemonicParsing="false" onAction="#browserBackButtonAction">
+                            <graphic>
+                                <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="/images/back.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <tooltip>
+                                <Tooltip text="Back" />
+                            </tooltip>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#browserForwardButtonAction">
+                            <graphic>
+                                <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="/images/forward.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <tooltip>
+                                <Tooltip text="Forward" />
+                            </tooltip>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#browserStopReloadButtonAction">
+                            <graphic>
+                                <ImageView fx:id="stopReloadIV" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="/images/stoploading.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#browserHomeButtonAction">
+                            <graphic>
+                                <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="/images/home.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <HBox>
+                            <children>
+                                <TextField fx:id="addressBarTF" onAction="#browserGoButtonAction" prefHeight="26.0" prefWidth="492.0" />
+                                <ProgressIndicator fx:id="progressPI" maxHeight="24.0" maxWidth="24.0" minHeight="16.0" minWidth="16.0" prefHeight="24.0" prefWidth="24.0" visible="false">
+                                    <HBox.margin>
+                                        <Insets left="-24.0" />
+                                    </HBox.margin>
+                                </ProgressIndicator>
+                            </children>
+                        </HBox>
+                    </items>
+                </ToolBar>
+            </top>
+            <bottom>
+                <HBox BorderPane.alignment="CENTER">
+                    <children>
+                        <Label fx:id="statusL" prefHeight="16.0" prefWidth="662.0" text="Status" />
+                    </children>
+                    <BorderPane.margin>
+                        <Insets />
+                    </BorderPane.margin>
+                </HBox>
+            </bottom>
+        </BorderPane>
+    </children>
+</AnchorPane>
